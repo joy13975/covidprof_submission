@@ -1,0 +1,16 @@
+{
+    "excerpts_conn_str": "http://host:port/api_endpoint",
+    "cuttly_config": {
+        "api_key": "your_api_key_here"
+    },
+    "custom_parse": {
+        "generic": [
+            "p",
+            "li",
+            "span"
+        ],
+        "wikipedia": [
+            "div.excerpt"
+        ]
+    }
+}

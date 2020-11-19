@@ -1,0 +1,55 @@
+Parse metric type, location, and date information from text into json containing 4 fields: "type", "location", "from" (date period), and "to" (date or period).
+If the location is in the United States, value of "location" is in the following format: "City_County_State_Country".
+If the location is not in the United States, value of "location" is the following format: "City_Province_Country".
+Leave "type" and "location" empty ONLY IF they are NOT mentioned.
+Leave "from" and "to" empty ONLY IF date and period (days, weeks, months, years etc.) are NOT mentioned.
+If not specified, the default year is <year>, default month is <month>, default day is <day>.
+
+text:number of cases in the state of Alabama between January and October of 2020
+json:{"type": "case", "location": "Alabama_UnitedStates", "from": "2020-01-01", "to": "2020-10-31"}
+text:recoveries in the New York City from February to December of 2019
+json:{"type": "recovery", "location": "NewYorkCity_NewYork_NewYork_UnitedStates", "from": "2019-02-01", "to": "2019-12-31"}
+text:how many deaths have there been in Portland from march 1st?
+json:{"type": "death", "location": "Portland_Multnomah_Oregon_UnitedStates", "from":"2020-03-01"}
+text:how many contracted covid starting January in Gujarat?
+json:{"type": "case", "location": "Gujarat_India", "from": "2020-01-01"}
+text:how many people got better in Frankfurt in the past week?
+json:{"type": "recovery", "location": "Frankfurt_Hesse_Germany", "from": "1w"}
+text:in the last 11 weeks, how many cases in Hubei?
+json:{"type": "case", "location": "Hubei_China", "from": "11w"}
+text:how many died in Dusseldorf in the past 2 months?
+json:{"type": "death", "location": "Dusseldorf_NorthRhineWestphalia_Germany", "from": "2m"}
+text:how many corona in Leipzig in the 2 weeks before 2020/5/3
+json:{"location": "Leipzig_Saxony_Germany", "from": "2w", "to": "2020-05-03"}
+text:recoveries in Vienna in the 3 months since Dec 2nd 2019
+json:{"type": "recovery", "location": "Vienna_Austria", "from": "2019-12-02", "to": "3m"}
+text:deaths in Johannesburg in the 45 days after March 2020
+json:{"type": "death", "location": "Johannesburg_Gauteng_SouthAfrica", "from": "2020-03-01", "to": "45d"}
+text:show me the cases in Male for the past 2 months
+json:{"type": "case", "location": "Male_Maldives", "from": "2m"}
+text:how many recoveries were recorded in the 24 days leading up to November 1st in Seaside Oregon?
+json:{"type": "recovery", "location": "Seaside_Clatsop_Oregon_UnitedStates", "from": "24d", "to": "2020-11-01"}
+text:how cases in last week?
+json:{"type": "case", "from": "1w"}
+text:Taipei numbers since Canadian Thanksgiving?
+json:{"location": "Taipei_Taiwan", "from": "2020-10-11"}
+text:3 months prior to Jun 1st, what number of people cured in Calgary
+json:{"type": "recovery", "location": "Calgary_Alberta_Canada", "from": "3m", "to": "2020-06-01"}
+text:anything recorded between Feb 28 and now in Hyderabad?
+json:{"location": "Hyderabad_Telangana_India", "from": "2020-02-28"}
+text:Basel how many infections from the 2 weeks after October first?
+json:{"type": "case", "location": "Basel_BaselStadt_Switzerland", "from": "2020-10-01", "to": "2w"}
+text:number of infections from the 55 days since Valentines Day?
+json:{"type": "case", "from": "2020-02-14", "to": "2w"}
+text:cases deaths in Sri Lanka for the 2 weeks since Independence Day?
+json:{"type": "death", "location": "SriLanka", "from": "2020-07-04", "to": "2w"}
+text:no. of people got sick since last month?
+json:{"type": "case", "from": "1m"}
+text:display recoveries in Rhode Island for the 2 weeks preceding 7/29
+json:{"type": "recovery", "location": "RhodeIsland_UnitedStates", "from": "2w", "to": "2020-07-29"}
+text:how many were reported in Santa Clara County for the 2 days post November 19
+json:{"location": "SantaClara_California_UnitedStates", "from": "2020-11-19", "to": "2d"}
+text:how many in Las Vegas since 32 days ago?
+json:{"location": "LasVegas_Clark_Nevada_UnitedStates"}
+text:<input>
+json:

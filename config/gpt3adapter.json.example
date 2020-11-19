@@ -1,0 +1,97 @@
+{
+    "api_key": "replace_with_your_gpt3_api_key",
+    "engine": "davinci",
+    "prompt_msg_token": "<input>",
+    "prompt_year_token": "<year>",
+    "prompt_month_token": "<month>",
+    "prompt_day_token": "<day>",
+    "prompt_excerpts_token": "<excerpts>",
+    "prompts": {
+        "sentence_intent": {
+            "file": "config/sentence_intent.txt",
+            "params": {
+                "max_tokens": 1,
+                "temperature": 0,
+                "stop": [
+                    "\n",
+                    ".",
+                    "\"",
+                    " "
+                ]
+            }
+        },
+        "about_self": {
+            "file": "config/about_self.txt",
+            "params": {
+                "max_tokens": 100,
+                "temperature": 0.8,
+                "frequency_penalty": 0.7,
+                "presence_penalty": 0.7,
+                "stop": [
+                    "\n",
+                    "\""
+                ]
+            }
+        },
+        "autocorrect": {
+            "file": "config/autocorrect.txt",
+            "params": {
+                "max_tokens": 100,
+                "temperature": 0.3,
+                "stop": [
+                    "\n"
+                ]
+            }
+        },
+        "classify_question": {
+            "file": "config/classify_question.txt",
+            "params": {
+                "max_tokens": 6,
+                "temperature": 0,
+                "stop": [
+                    "\n",
+                    ".",
+                    "\""
+                ]
+            }
+        },
+        "parse_numbers": {
+            "file": "config/parse_numbers.txt",
+            "params": {
+                "max_tokens": 100,
+                "temperature": 0,
+                "stop": [
+                    "\n"
+                ]
+            }
+        },
+        "extract_answer": {
+            "file": "config/extract_answer.txt",
+            "params": {
+                "max_tokens": 100,
+                "temperature": 0.15,
+                "top_p": 0.5,
+                "presence_penalty": 0.3,
+                "frequency_penalty": 0.95,
+                "stop": [
+                    "\n"
+                ]
+            }
+        }
+    },
+    "answer_stop_words": [
+        "fuck",
+        "shut up",
+        "shit",
+        "idiot",
+        "stupid",
+        "dick"
+    ],
+    "dangerous_answer_replacement": "I'm sorry, I could not come up with a good enough answer.",
+    "graph_hashtags": [
+        "#graph",
+        "#plot",
+        "#draw",
+        "#curves"
+    ]
+}

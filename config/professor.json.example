@@ -1,0 +1,29 @@
+{
+    "web_config_file": "data/webparams.json",
+    "disclaimer": {
+        "medical": "[Not Medical Advice] ",
+        "controversy": "[Potentially Controversial] "
+    },
+    "confused_msg": "I'm not sure I understood. Try to be more specific?",
+    "macro_words": [
+        "pandemic",
+        "global",
+        "international",
+        "country",
+        "countries"
+    ],
+    "macro_url": "https://en.wikipedia.org/wiki/COVID-19_pandemic",
+    "micro_url": "https://en.wikipedia.org/wiki/Coronavirus_disease_2019",
+    "banned_url_words": [
+        "//api."
+    ],
+    "input_msg_header": "About COVID-19: ",
+    "use_keyword_to_search": true,
+    "search_n_docs": 15,
+    "search_n_frags": 6,
+    "search_frag_size": 300,
+    "n_excerpts_considered": 5,
+    "shorten_urls": true,
+    "references_heading": "I'm not always right. Fact check!",
+    "articles_might_help_heading": "These articles might help:"
+}

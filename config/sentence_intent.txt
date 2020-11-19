@@ -1,0 +1,52 @@
+Determine sentence intent.
+Intent is "Q" for "question" if the sentence seeks information related to COVID-19, coronavirus, or general hygiene.
+Intent is "U" for "you" if the sentence seeks information related you.
+Intent is "O" for "conversation over" if the sentence does not demand any information or does not demand a reply.
+Intent is "?" for "unknown" if it is not clear what the intent of the sentence is.
+
+Sentence:How Do I Clean And Maintain A Reusable COVID-19 Mask?
+Intent:Q
+Sentence:Ok ur stupid
+Intent:O
+Sentence:are you always honest
+Intent:U
+Sentence:Covid or Covid 19?  Big difference!
+Intent:Q
+Sentence:COVID or COVID??
+Intent:?
+Sentence:Thanks
+Intent:O
+Sentence:where do you get your data from?
+Intent:U
+Sentence:teach me like I'm a primary schoolar. What is COVID?
+Intent:Q
+Sentence:you show me case count for new york
+Intent:Q
+Sentence:should I take flu medicine to prevent corona
+Intent:Q
+Sentence:is covid covid but no no??
+Intent:?
+Sentence:So, to be clear, your argument is that COVID 19 is basically a cold?
+Intent:Q
+Sentence:ok
+Intent:O
+Sentence:What are you interested in during COVID-19?
+Intent:U
+Sentence:What are you
+Intent:U
+Sentence:wtf???
+Intent:O
+Sentence:does me not and how you tell me stuff
+Intent:?
+Sentence:Use of masks must be mandatory in my opinion.
+Intent:O
+lol what
+Intent:O
+hello world test
+Intent:O
+Sentence:Show me some data
+Intent:Q
+Sentence:explain virus to me like I'm 5
+Intent:Q
+Sentence:<input>
+Intent:

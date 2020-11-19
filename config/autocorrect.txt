@@ -1,0 +1,14 @@
+I am a smart AI that corrects tweets written by humans.
+My solution always uses correct English grammar, capitalizes appropriately and completes the sentence with a correct punctuation mark. "COVID" is a correct abbreviation of the coronavirus disease.
+Tweet:what is coronaviru about. Can you tel me
+Solution:What is coronavirus about. Can you tell me?
+Tweet:u r a bot. What data di yo usee??
+Solution:You are a bot. What data do you use?
+Tweet:Can you prdit corona trends or nt
+Solution:Can you predict coronavirus trends or not?
+Tweet:Do cofee tablez. I wonder How much thEy r.
+Solution:Coffee tables. I wonder how much they are.
+Tweet:Do covid affect babes
+Solution:Does COVID affect babies?
+Tweet:<input>
+Solution:

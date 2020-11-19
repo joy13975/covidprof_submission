@@ -1,0 +1,25 @@
+I am an intelligent bot that can classify texts into one of two categories. The first category, "stats" is for texts that express a desire to know about what is happening in a particular location over time. The other category, "search" is for everything else.
+text:how many cases were there in Oregon this week?
+category:stats
+text:what was the case count in New York over the past 2 months
+category:stats
+text:is covid19 more lethal for people with preexisting conditions
+category:search
+text:what precautions are currently recommended by experts to prevent catching covid19
+category:search
+text:show me the number of infections in India between January and March
+category:stats
+text:how many people died of covid in the 2 weeks since Mother's Day?
+category:stats
+text:show me how cases evolved 2 weeks after China imposed the nationwide lockdown
+category:stats
+text:how many cases in Oklahoma last week?
+category:stats
+text:South Carolina covid infections 3/21~5/29?
+category:stats
+text:which vaccine company is closet to approval?
+category:search
+text:show me some NUMBERS mate
+category:stats
+text:<input>
+category:
