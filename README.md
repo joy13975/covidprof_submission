@@ -6,7 +6,7 @@
 
 This is a C3.ai Grand Challenge project.
 
-Our aim is to build a chatbot that can teach non-exports about COVID-19 research by explaining latest publicly avilable research in layman's terms.
+Our aim is to build a chatbot that can teach non-experts about COVID-19 research by explaining latest publicly avilable research in layman's terms.
 
 `covidprof` currently uses Twitter as frontend, and uses C3.ai's data lake as the main source of COVID-19 related research data.
 
