@@ -19,7 +19,7 @@ Overall system + data flow diagram:
 
 # If you are a C3.ai judge
 
-The easiest and quickest way for you to try out `covidprof` is to head to Twitter and ask [@covidprof](https://twitter.com/covidprof) something!
+The easiest and quickest way for you to try out `covidprof` is to head to Twitter and ask [@covidprof](https://twitter.com/covidprof) something! Make sure to follow it first because its tweets are set to private.
 
 Example:
 <p align="center">
