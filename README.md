@@ -17,9 +17,7 @@ Overall system + data flow diagram:
 <img src="resources/c3ai_system_graph.png" width="100%">
 </p>
 
-# If you are a C3.ai judge
-
-The easiest and quickest way for you to try out `covidprof` is to head to Twitter and ask [@covidprof](https://twitter.com/covidprof) something! Make sure to follow it first because its tweets are set to private.
+# Pre-requisites
 
 Because this app's architecture requires many moving parts and API keys prepared for several different services, running this setup as-is from a different environment may take some time to setup. This project is easy to set up, but the preparation takes considerable time due to the following steps required to run the app successfully:
 
